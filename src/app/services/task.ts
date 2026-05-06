@@ -5,7 +5,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   providedIn: 'root',
 })
 export class TaskService {
-  apiUrl = 'http://localhost:5000/api/tasks';
+  apiUrl = 'https://team-task-manager-production-83aa.up.railway.app/api/tasks';
 
   constructor(private http: HttpClient) {}
 
